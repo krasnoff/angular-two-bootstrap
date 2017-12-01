@@ -1,0 +1,9 @@
+<div ngbDropdown class="d-inline-block">
+  <!--button class="btn btn-outline-primary" id="sortMenu" ngbDropdownToggle>{{selectedSortOrder}}</button-->
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="dropdownMenuButton" id="sortMenu" ngbDropdownToggle>
+    <i class="fa fa-envelope fa-fw"></i>
+  </a>
+  <div class="dropdown-menu" aria-labelledby="sortMenu">
+    <button class="dropdown-item" *ngFor="let sortOrder of sortOrders" (click)="ChangeSortOrder(sortOrder)" >{{sortOrder}}</button>
+  </div>
+</div>

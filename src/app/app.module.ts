@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap/dropdown/dropdown.module';
+import { DropDownEnvelopeComponent } from './drop-down-envelope/drop-down-envelope.component';
+
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DropDownEnvelopeComponent
   ],
   imports: [
     BrowserModule,
