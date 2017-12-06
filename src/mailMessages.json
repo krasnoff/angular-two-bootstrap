@@ -1,0 +1,17 @@
+[
+    {
+        "mail_date": "20171206",
+        "mail_sender": "John Smith",
+        "mail_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend..."
+    },
+    {
+        "mail_date": "20171205",
+        "mail_sender": "Jane mansfield",
+        "mail_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend..."
+    },
+    {
+        "mail_date": "20171202",
+        "mail_sender": "Kookie Lockie",
+        "mail_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend..."
+    }
+]
