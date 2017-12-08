@@ -7,6 +7,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap/dropdown/dropdown.module';
 import { DropDownEnvelopeComponent } from './drop-down-envelope/drop-down-envelope.component';
+import { TasksListComponent } from './tasks-list/tasks-list.component';
 
 
 
@@ -14,7 +15,8 @@ import { DropDownEnvelopeComponent } from './drop-down-envelope/drop-down-envelo
 @NgModule({
   declarations: [
     AppComponent,
-    DropDownEnvelopeComponent
+    DropDownEnvelopeComponent,
+    TasksListComponent
   ],
   imports: [
     BrowserModule,

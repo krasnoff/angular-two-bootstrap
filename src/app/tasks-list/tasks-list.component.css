@@ -1,0 +1,36 @@
+.show .dropdown-menu
+{
+    display: block;
+}
+
+.d-inline-block
+{
+    height: 48px;
+    padding-top: 13px;
+}
+
+.dropdown-menu
+{
+    right: 0px;
+    left: inherit;
+    width: 310px;
+}
+
+.dropdown-menu li, .dropdown-menu li a
+{
+    padding: 3px 20px;
+    min-height: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.dropdown-menu li a:hover
+{
+    background-color: transparent;
+}
+
+.divider
+{
+    color: #333 !important;
+    height: 1px;
+}

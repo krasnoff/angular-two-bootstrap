@@ -1,0 +1,22 @@
+[
+    {
+        "title": "task 1",
+        "progressValue": "15",
+        "type": "success"
+    },
+    {
+        "title": "task 2",
+        "progressValue": "30",
+        "type": "info"
+    },
+    {
+        "title": "task 2",
+        "progressValue": "15",
+        "type": "warning"
+    },
+    {
+        "title": "task 2",
+        "progressValue": "15",
+        "type": "danger"
+    }
+]
