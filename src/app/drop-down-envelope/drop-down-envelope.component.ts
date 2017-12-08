@@ -15,7 +15,7 @@ export class DropDownEnvelopeComponent {
   constructor(private _httpService:AppService) {}
 
   ngOnInit() {
-    this._httpService.getMethod('mailMessages.json')
+    this._httpService.getMethod('json/mailMessages.json')
     .subscribe (
       data => {
         this.mailData = data;

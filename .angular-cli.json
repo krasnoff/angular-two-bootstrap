@@ -10,8 +10,7 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "mailMessages.json",
-        "tasksList.json"
+        "json"
       ],
       "index": "index.html",
       "main": "main.ts",
