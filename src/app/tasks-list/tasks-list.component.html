@@ -3,14 +3,14 @@
     <i class="fa fa-tasks fa-fw"></i>
   </a>
   <ul class="dropdown-menu dropdown-tasks">
-  <li>
+  <li *ngFor="let el of statusData">
       <a href="#">
           <div>
               <p>
-                  <strong>Task 2</strong>
-                  <span class="pull-right text-muted">20% Complete</span>
+                  <strong>{{el.title}}</strong>
+                  <span class="pull-right text-muted">{{el.progressValue}}% Complete</span>
               </p>
-              <p><ngb-progressbar type="success" [value]="25">25</ngb-progressbar></p>
+              <p><ngb-progressbar type="{{el.type}}" [value]="el.progressValue" [striped]="true" [animated]="true">&nbsp;</ngb-progressbar></p>
           </div>
       </a>
   </li>
